@@ -22,8 +22,8 @@ angular.module('myApp.config', [])
    .constant('authProviders', [
       { id: 'twitter',  name: 'Twitter',  icon: 'icon-twitter'  },
       { id: 'facebook', name: 'Facebook', icon: 'icon-facebook' },
-      { id: 'github',   name: 'GitHub',   icon: 'icon-github'   }
-//         { id: 'email',    name: 'Email',    icon: 'icon-envelope' }
+      { id: 'github',   name: 'GitHub',   icon: 'icon-github'   },
+         { id: 'email',    name: 'Email',    icon: 'icon-envelope' }
    ])
 
    .config(function($logProvider) {
